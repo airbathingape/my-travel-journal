@@ -1,0 +1,19 @@
+body {
+  background: #F55A5A;
+  color: white;
+}
+
+.nav--main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav--icon {
+  margin-top: 8px;
+  margin-right: 4px;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 50px);
+  top: calc(50% - 24px/2 - 324px);
+}
