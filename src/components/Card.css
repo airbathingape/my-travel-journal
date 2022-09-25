@@ -8,13 +8,16 @@
   align-self: center;
   height: 100%;
   width: 700px;
-  border: 1px solid black;
+  padding: 32px;
+  border-bottom: 1px solid #F5F5F5;
+  /* border: 1px solid black; */
 }
 
 .cardImage {
   height: 100%;
-  width: 170px;
+  width: 180px;
   object-fit: cover;
+  border-radius: 4px;
 }
 
 .cardDetails {
@@ -26,4 +29,8 @@
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+.detailsLink {
+  margin-left: 24px;
 }
