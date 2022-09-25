@@ -1,12 +1,9 @@
-body {
-  background: #F55A5A;
-  color: white;
-}
-
 .nav--main {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #F55A5A;
+  color: white;
 }
 
 .nav--icon {
