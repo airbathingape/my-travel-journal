@@ -1,10 +1,21 @@
 import './Main.css'
 import Card from './Card';
+import data from './data'
 
 function Main() {
-  return(
+
+  const cards = data.map(item => {
+    return (
+      <Card
+        key={item.id}
+        item={item}
+      />
+    )
+  })
+
+  return (
     <div>
-      <Card />
+      {cards}
     </div>
   )
 }
