@@ -9,12 +9,12 @@ function Card(props) {
         </div>
         <div className="cardDetails">
           <span className='cardLocationDetails'>
-          <i class="fa-solid fa-location-dot"></i>
-          <p>J A P A N</p>
+          <i class="fa-solid fa-location-dot cardPin" ></i>
+          <p className='capitalize'>{props.item.location}</p>
           <a href={props.item.googleMapsUrl} target="_blank" rel="noreferrer" className='detailsLink'>View on Google Maps</a>
           </span>
           <h1>{props.item.location}</h1>
-          <p>{props.item.startDate} - {props.item.endDate}</p>
+          <p className='start'>{props.item.startDate} - {props.item.endDate}</p>
           <p>{props.item.description}</p>
         </div>
       </div>

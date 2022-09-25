@@ -1,3 +1,4 @@
+
 .cardMain {
   display: flex;
   justify-content: center;
@@ -7,7 +8,7 @@
   display: flex;
   align-self: center;
   height: 100%;
-  width: 700px;
+  width: 750px;
   padding: 32px;
   border-bottom: 1px solid #F5F5F5;
   /* border: 1px solid black; */
@@ -25,6 +26,10 @@
   flex-direction: column;
   margin-left: 24px;
 }
+
+.cardDetails > h1 {
+  margin-top: -10px;
+}
 .cardLocationDetails {
   display: flex;
   align-items: center;
@@ -32,5 +37,19 @@
 }
 
 .detailsLink {
-  margin-left: 24px;
+  margin-left: 16px;
+}
+
+.cardPin {
+  color: #F55A5A;
+}
+
+.capitalize {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.start {
+  font-weight: bold;
+  margin-top: 0px;
 }
