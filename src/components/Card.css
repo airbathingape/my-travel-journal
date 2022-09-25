@@ -1,4 +1,29 @@
+.cardMain {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   display: flex;
   align-self: center;
+  height: 100%;
+  width: 700px;
+  border: 1px solid black;
+}
+
+.cardImage {
+  height: 100%;
+  width: 170px;
+  object-fit: cover;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+.cardLocationDetails {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
